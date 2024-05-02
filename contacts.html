@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <br/>
+    <br/>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <label for="fname">Vārds</label>
+        <input type="text" name="fname" required>
+        <label for="lname">Uzvārds</label>
+        <input type="text" name="lname" required>
+        <label for="email">E-pasts</label>
+        <input type="text" name="email" required>
+        <label for="name">Parole</label>
+        <input type="password" name="password" required>
+        <br/>
+        <br/>
+        <label for="gender">Dzimums</label>
+        <select name="gender" id="" multiple="true">
+            <option value="1">Sieviete</option>
+            <option value="2">Vīrietis</option>
+            <option value="3">Cits</option>
+            <option value="4">Nezinu</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="bird">Mīļākais putns</label>
+        <input type="text" name="bird">
+        <br/>
+        <input type="checkbox" id="chb1" name="chb1" value="chb1">
+        <label for="chb1">Man ļoti patīk putni.</label>
+        <br/>
+        <input type="checkbox" id="chb2" name="chb2" value="chb2">
+        <label for="chb2">Esmu sajūsmā par putniem.</label>
+        <br/>
+        <input type="checkbox" id="chb3" name="chb3" value="chb3">
+        <label for="chb3">Ja man nevajadzētu pelnīt naudu, es uzreiz pamestu darbu, lai visu dienu lūrētu uz putniem.</label>
+        <br/>
+        <br/>
+        <label for="quantity">Cik daudz putnu Jūs šodien redzējat? (līdz 30):</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="30">
+        <br/>
+        <p>Vecums</p>
+        <input type="radio" name="age">
+        <label for="age">Mazāk par 10 gadiem</label>
+        <input type="radio" name="age">
+        <label for="age">10 gadi</label>
+        <input type="radio" name="age">
+        <label for="age">Krietni pāri 10 gadiem.</label>
+        <br/>
+        <label for="message">Komentārs</label>
+        <textarea name="message" id="" cols="10" rows="5"></textarea>
+        <input type="submit">
+    </form>
+    <a href="./about.html">Kāpēc ir svarīgi mācēt atpazīt putnus?</a>
+    <br/>
+    <a href="./index.html">Gribu redzēt putnus!</a>
+</body>
+</html>
